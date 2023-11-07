@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px pink solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    width: 50% border: 1px pink solid;
+    
+}
+
+header nav {
+    width: 50%;
+    border: 1px plum solid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figure {
+    background-image: url(https://i.pinimg.com/originals/32/83/9a/32839a7eb0ae452567ea3d4c5b0a7610.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 2px pink solid;
+    text-align: right;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 1%;
+   
+}
+
+.left-side .section-container {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    
+}
+
+.card {
+    width: 45%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 9%;
+}
+
+.section-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#image1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+}

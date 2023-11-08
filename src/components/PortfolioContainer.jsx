@@ -42,8 +42,8 @@ export default function PortfolioContainer() {
 
       </div>
 
-      <div className="footer">
-        <ul>
+      <div id="footer">
+        <ul id="footer-ul">
           <a href="https://www.linkedin.com/in/isabella-adrien-b38ba4267/">
 
             <li>LinkedIn</li>

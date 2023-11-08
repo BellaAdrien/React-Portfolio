@@ -1,5 +1,7 @@
 export default function About() {
   return (
+
+    <div className="demopara">
     <section id="about">
               <section className="section-container">
 
@@ -15,7 +17,7 @@ export default function About() {
 
 
     </section>
-
+</div>
   );
 }
 

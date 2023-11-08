@@ -21,21 +21,47 @@ export default function PortfolioContainer() {
       return <Resume />;
     }
     if (currentPage === 'Contact') {
-    return <Contact />;
+      return <Contact />;
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
   }
-}
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
+      <div>
+
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+
+        <main className="mx-3">{renderPage()}</main>
+
+
+
+      </div>
+
+      <div className="footer">
+        <ul>
+          <a href="https://www.linkedin.com/in/isabella-adrien-b38ba4267/">
+
+            <li>LinkedIn</li>
+
+          </a>
+
+          <a href="mailto:iadrien2020@fau.edu">
+            <li>Email</li>
+
+          </a>
+          <a href="https://github.com/BellaAdrien">
+            <li>Github</li>
+
+          </a>
+        </ul>
+
+      </div>
+
     </div>
   );
 }
